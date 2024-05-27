@@ -1,0 +1,32 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-1P5C" pn="GW1N-UV1P5LQ100C6/I5">gw1n1p5c-014</Device>
+    <FileList>
+        <File path="src/ampere_ctrl/clk_divider.sv" type="file.verilog" enable="1"/>
+        <File path="src/ampere_ctrl/hour.sv" type="file.verilog" enable="1"/>
+        <File path="src/ampere_ctrl/lut_time.sv" type="file.verilog" enable="1"/>
+        <File path="src/ampere_ctrl/min.sv" type="file.verilog" enable="1"/>
+        <File path="src/ampere_ctrl/pulse_gen.sv" type="file.verilog" enable="1"/>
+        <File path="src/ampere_ctrl/pwm_modulator.sv" type="file.verilog" enable="1"/>
+        <File path="src/ampere_ctrl/second.sv" type="file.verilog" enable="1"/>
+        <File path="src/ampere_ctrl/time_ctrl.sv" type="file.verilog" enable="1"/>
+        <File path="src/key_led/key.v" type="file.verilog" enable="1"/>
+        <File path="src/key_led/led.sv" type="file.verilog" enable="1"/>
+        <File path="src/rtc_hex/uart_sd30xx/i2c_bit_shift.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_hex/uart_sd30xx/i2c_control.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_hex/uart_sd30xx/sd30xx_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_hex/uart_sd30xx/uart_adjust_time/adjust_time.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_adjust_time.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_byte_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_hex/uart_sd30xx/uart_sd30xx_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_uart/time_send.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_uart/time_send_uart.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_uart/uart_byte_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtc_uart_hex.sv" type="file.verilog" enable="1"/>
+        <File path="src/Ampere_Clock.cst" type="file.cst" enable="1"/>
+        <File path="src/Ampere_Clock.rao" type="file.gao" enable="0"/>
+    </FileList>
+</Project>

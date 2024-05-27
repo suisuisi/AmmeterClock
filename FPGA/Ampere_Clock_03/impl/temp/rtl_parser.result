@@ -1,0 +1,284 @@
+[
+ {
+  "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+  "InstLine" : 19,
+  "InstName" : "rtc_uart_hex",
+  "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+  "ModuleLine" : 19,
+  "ModuleName" : "rtc_uart_hex",
+  "SubInsts" : [
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 81,
+    "InstName" : "u_uart_sd30xx_ctrl",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_sd30xx_ctrl.v",
+    "ModuleLine" : 19,
+    "ModuleName" : "uart_sd30xx_ctrl",
+    "SubInsts" : [
+     {
+      "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_sd30xx_ctrl.v",
+      "InstLine" : 38,
+      "InstName" : "u_uart_adjust_time",
+      "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_adjust_time.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "uart_adjust_time",
+      "SubInsts" : [
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_adjust_time.v",
+        "InstLine" : 36,
+        "InstName" : "u_uart_byte_rx",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_byte_rx.v",
+        "ModuleLine" : 19,
+        "ModuleName" : "uart_byte_rx"
+       },
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_adjust_time.v",
+        "InstLine" : 55,
+        "InstName" : "u_adjust_time",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/adjust_time.v",
+        "ModuleLine" : 19,
+        "ModuleName" : "adjust_time"
+       }
+      ]
+     },
+     {
+      "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_sd30xx_ctrl.v",
+      "InstLine" : 68,
+      "InstName" : "u_sd30xx_ctrl",
+      "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/sd30xx_ctrl.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "sd30xx_ctrl",
+      "SubInsts" : [
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/sd30xx_ctrl.v",
+        "InstLine" : 76,
+        "InstName" : "u_i2c_control",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/i2c_control.v",
+        "ModuleLine" : 19,
+        "ModuleName" : "i2c_control",
+        "SubInsts" : [
+         {
+          "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/i2c_control.v",
+          "InstLine" : 83,
+          "InstName" : "u_i2c_bit_shift",
+          "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/i2c_bit_shift.v",
+          "ModuleLine" : 19,
+          "ModuleName" : "i2c_bit_shift"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 95,
+    "InstName" : "u_key0",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/key_led/key.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "key"
+   },
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 103,
+    "InstName" : "u_key1",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/key_led/key.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "key"
+   },
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 111,
+    "InstName" : "u_key2",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/key_led/key.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "key"
+   },
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 119,
+    "InstName" : "u_key3",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/key_led/key.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "key"
+   },
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 128,
+    "InstName" : "u_led",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/key_led/led.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "led"
+   },
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 156,
+    "InstName" : "u_time_send_uart",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/time_send_uart.v",
+    "ModuleLine" : 19,
+    "ModuleName" : "time_send_uart",
+    "SubInsts" : [
+     {
+      "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/time_send_uart.v",
+      "InstLine" : 36,
+      "InstName" : "u_time_send",
+      "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/time_send.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "time_send"
+     },
+     {
+      "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/time_send_uart.v",
+      "InstLine" : 46,
+      "InstName" : "u_uart_byte_tx",
+      "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/uart_byte_tx.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "uart_byte_tx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+    "InstLine" : 178,
+    "InstName" : "u_time_ctrl",
+    "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/time_ctrl.sv",
+    "ModuleLine" : 19,
+    "ModuleName" : "time_ctrl",
+    "SubInsts" : [
+     {
+      "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/time_ctrl.sv",
+      "InstLine" : 48,
+      "InstName" : "u0_second",
+      "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/second.sv",
+      "ModuleLine" : 19,
+      "ModuleName" : "second",
+      "SubInsts" : [
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/second.sv",
+        "InstLine" : 36,
+        "InstName" : "second_lut_time",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/lut_time.sv",
+        "ModuleLine" : 2,
+        "ModuleName" : "lut_time_60"
+       },
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/second.sv",
+        "InstLine" : 47,
+        "InstName" : "pwm1",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+        "ModuleLine" : 34,
+        "ModuleName" : "pwm_modulator",
+        "SubInsts" : [
+         {
+          "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+          "InstLine" : 57,
+          "InstName" : "cd1",
+          "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/clk_divider.sv",
+          "ModuleLine" : 24,
+          "ModuleName" : "clk_divider"
+         },
+         {
+          "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+          "InstLine" : 73,
+          "InstName" : "pg1",
+          "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pulse_gen.sv",
+          "ModuleLine" : 58,
+          "ModuleName" : "pulse_gen"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/time_ctrl.sv",
+      "InstLine" : 62,
+      "InstName" : "u0_min",
+      "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/min.sv",
+      "ModuleLine" : 19,
+      "ModuleName" : "min",
+      "SubInsts" : [
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/min.sv",
+        "InstLine" : 36,
+        "InstName" : "second_lut_time",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/lut_time.sv",
+        "ModuleLine" : 2,
+        "ModuleName" : "lut_time_60"
+       },
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/min.sv",
+        "InstLine" : 46,
+        "InstName" : "pwm1",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+        "ModuleLine" : 34,
+        "ModuleName" : "pwm_modulator",
+        "SubInsts" : [
+         {
+          "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+          "InstLine" : 57,
+          "InstName" : "cd1",
+          "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/clk_divider.sv",
+          "ModuleLine" : 24,
+          "ModuleName" : "clk_divider"
+         },
+         {
+          "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+          "InstLine" : 73,
+          "InstName" : "pg1",
+          "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pulse_gen.sv",
+          "ModuleLine" : 58,
+          "ModuleName" : "pulse_gen"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/time_ctrl.sv",
+      "InstLine" : 77,
+      "InstName" : "u0_hour",
+      "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/hour.sv",
+      "ModuleLine" : 19,
+      "ModuleName" : "hour",
+      "SubInsts" : [
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/hour.sv",
+        "InstLine" : 37,
+        "InstName" : "second_lut_time",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/lut_time.sv",
+        "ModuleLine" : 107,
+        "ModuleName" : "lut_time_12"
+       },
+       {
+        "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/hour.sv",
+        "InstLine" : 48,
+        "InstName" : "pwm1",
+        "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+        "ModuleLine" : 34,
+        "ModuleName" : "pwm_modulator",
+        "SubInsts" : [
+         {
+          "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+          "InstLine" : 57,
+          "InstName" : "cd1",
+          "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/clk_divider.sv",
+          "ModuleLine" : 24,
+          "ModuleName" : "clk_divider"
+         },
+         {
+          "InstFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+          "InstLine" : 73,
+          "InstName" : "pg1",
+          "ModuleFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pulse_gen.sv",
+          "ModuleLine" : 58,
+          "ModuleName" : "pulse_gen"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

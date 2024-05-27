@@ -1,0 +1,97 @@
+{
+ "Device" : "GW1N-1P5C",
+ "Files" : [
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/clk_divider.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/hour.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/lut_time.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/min.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pulse_gen.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/pwm_modulator.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/second.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/ampere_ctrl/time_ctrl.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/key_led/key.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/key_led/led.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/i2c_bit_shift.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/i2c_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/sd30xx_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/adjust_time.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_adjust_time.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_adjust_time/uart_byte_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_hex/uart_sd30xx/uart_sd30xx_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/time_send.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/time_send_uart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart/uart_byte_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/src/rtc_uart_hex.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "G:/FILE/FPGA/GoWin/A_Clock/Ampere_Clock_03/src"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "I:/FILE/FPGA/Gowin/A_Clock/Ampere_Clock_03/impl/temp/rtl_parser.result",
+ "Top" : "rtc_uart_hex",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="rtc_uart_hex" Register="9" Alu="8" Lut="1" T_Register="754(9)" T_Alu="240(8)" T_Lut="721(1)" T_Bsram="2(0)">
+    <SubModule name="u_uart_sd30xx_ctrl" Register="24" Lut="45" T_Register="407(24)" T_Lut="476(45)">
+        <SubModule name="u_uart_adjust_time" T_Register="233(0)" T_Lut="140(0)">
+            <SubModule name="u_uart_byte_rx" Register="70" Lut="120" T_Register="70(70)" T_Lut="120(120)"/>
+            <SubModule name="u_adjust_time" Register="163" Lut="20" T_Register="163(163)" T_Lut="20(20)"/>
+        </SubModule>
+        <SubModule name="u_sd30xx_ctrl" Register="76" Lut="127" T_Register="150(76)" T_Lut="291(127)">
+            <SubModule name="u_i2c_control" Register="32" Lut="59" T_Register="74(32)" T_Lut="164(59)">
+                <SubModule name="u_i2c_bit_shift" Register="42" Lut="105" T_Register="42(42)" T_Lut="105(105)"/>
+            </SubModule>
+        </SubModule>
+    </SubModule>
+    <SubModule name="u_key0" Register="29" Alu="24" Lut="15" T_Register="29(29)" T_Alu="24(24)" T_Lut="15(15)"/>
+    <SubModule name="u_key1" Register="29" Alu="24" Lut="15" T_Register="29(29)" T_Alu="24(24)" T_Lut="15(15)"/>
+    <SubModule name="u_key2" Register="29" Alu="24" Lut="15" T_Register="29(29)" T_Alu="24(24)" T_Lut="15(15)"/>
+    <SubModule name="u_key3" Register="29" Alu="24" Lut="15" T_Register="29(29)" T_Alu="24(24)" T_Lut="15(15)"/>
+    <SubModule name="u_led" Register="58" Alu="47" Lut="26" T_Register="58(58)" T_Alu="47(47)" T_Lut="26(26)"/>
+    <SubModule name="u_time_send_uart" T_Register="134(0)" T_Alu="44(0)" T_Lut="107(0)">
+        <SubModule name="u_time_send" Register="104" Alu="44" Lut="58" T_Register="104(104)" T_Alu="44(44)" T_Lut="58(58)"/>
+        <SubModule name="u_uart_byte_tx" Register="30" Lut="49" T_Register="30(30)" T_Lut="49(49)"/>
+    </SubModule>
+    <SubModule name="u_time_ctrl" T_Register="30(0)" T_Alu="45(0)" T_Lut="51(0)" T_Bsram="2(0)">
+        <SubModule name="u0_second" T_Register="21(0)" T_Alu="15(0)" T_Lut="3(0)" T_Bsram="1(0)">
+            <SubModule name="pwm1" T_Register="21(0)" T_Alu="15(0)" T_Lut="3(0)" T_Bsram="1(0)">
+                <SubModule name="cd1" Register="4" Lut="1" T_Register="4(4)" T_Lut="1(1)"/>
+                <SubModule name="pg1" Register="17" Alu="15" Lut="2" Bsram="1" T_Register="17(17)" T_Alu="15(15)" T_Lut="2(2)" T_Bsram="1(1)"/>
+            </SubModule>
+        </SubModule>
+        <SubModule name="u0_min" T_Alu="15(0)" T_Lut="1(0)" T_Bsram="1(0)">
+            <SubModule name="pwm1" T_Alu="15(0)" T_Lut="1(0)" T_Bsram="1(0)">
+                <SubModule name="pg1" Alu="15" Lut="1" Bsram="1" T_Alu="15(15)" T_Lut="1(1)" T_Bsram="1(1)"/>
+            </SubModule>
+        </SubModule>
+        <SubModule name="u0_hour" T_Register="9(0)" T_Alu="15(0)" T_Lut="47(0)">
+            <SubModule name="second_lut_time" Lut="6" T_Lut="6(6)"/>
+            <SubModule name="pwm1" T_Register="9(0)" T_Alu="15(0)" T_Lut="41(0)">
+                <SubModule name="cd1" Lut="3" T_Lut="3(3)"/>
+                <SubModule name="pg1" Register="9" Alu="15" Lut="38" T_Register="9(9)" T_Alu="15(15)" T_Lut="38(38)"/>
+            </SubModule>
+        </SubModule>
+    </SubModule>
+</Module>

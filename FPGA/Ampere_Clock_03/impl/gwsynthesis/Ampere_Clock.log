@@ -1,0 +1,85 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\clk_divider.sv'
+WARN  (EX2478) : Non-net output port 'out' cannot be initialized at declaration in SystemVerilog mode("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\clk_divider.sv":30)
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\hour.sv'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\lut_time.sv'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\min.sv'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pulse_gen.sv'
+WARN  (EX2478) : Non-net output port 'start_strobe' cannot be initialized at declaration in SystemVerilog mode("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pulse_gen.sv":71)
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pwm_modulator.sv'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\second.sv'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\time_ctrl.sv'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v'
+WARN  (EX3801) : Parameter 'CNT_10MS' becomes localparam in 'key' with formal parameter declaration list("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v":32)
+WARN  (EX3801) : Parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v":33)
+WARN  (EX3801) : Parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v":34)
+WARN  (EX3801) : Parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v":35)
+WARN  (EX3801) : Parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v":36)
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\led.sv'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_bit_shift.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_control.v'
+Undeclared symbol 'trans_done', assumed default net type 'wire'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_control.v":90)
+Undeclared symbol 'ack_o', assumed default net type 'wire'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_control.v":91)
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v'
+WARN  (EX3680) : Concatenation with an unsized literal will be treated as 32 bits("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v":199)
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\adjust_time.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\uart_adjust_time.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\uart_byte_rx.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_sd30xx_ctrl.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\time_send.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\time_send_uart.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\uart_byte_tx.v'
+Analyzing Verilog file 'I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart_hex.sv'
+Compiling module 'rtc_uart_hex'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart_hex.sv":19)
+Compiling module 'uart_sd30xx_ctrl'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_sd30xx_ctrl.v":19)
+Compiling module 'uart_adjust_time'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\uart_adjust_time.v":19)
+Compiling module 'uart_byte_rx'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\uart_byte_rx.v":19)
+Compiling module 'adjust_time'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\adjust_time.v":19)
+Compiling module 'sd30xx_ctrl'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v":19)
+Compiling module 'i2c_control'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_control.v":19)
+Compiling module 'i2c_bit_shift'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_bit_shift.v":19)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 5("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v":257)
+Compiling module 'key(CLK_FREQ=50000000)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v":22)
+Compiling module 'led(TIME_SET=32'd9_999_999)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\led.sv":1)
+Compiling module 'time_send_uart'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\time_send_uart.v":19)
+Compiling module 'time_send'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\time_send.v":19)
+Compiling module 'uart_byte_tx'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\uart_byte_tx.v":19)
+Compiling module 'time_ctrl(SD_FREQ=100000,MIN_FREQ=200,HOUR_FREQ=120,MIN_FULL_SCALE=200,HOUR_FULL_SCALE=120,MIN_FULL_PERIOD=200,HOUR_FULL_PERIOD=120)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\time_ctrl.sv":19)
+Compiling module 'second(Freq=100000,Period=500)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\second.sv":19)
+Compiling module 'lut_time_60'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\lut_time.sv":2)
+Compiling module 'pwm_modulator(PWM_PERIOD_DIV=19,MOD_WIDTH=15)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pwm_modulator.sv":34)
+Compiling module 'clk_divider'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\clk_divider.sv":24)
+Compiling module 'pulse_gen(CNTR_WIDTH=16)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pulse_gen.sv":58)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 15 for port 'mod_setpoint'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\second.sv":51)
+Compiling module 'min(Freq=200,FULL_SCALE=200,FULL_PERIOD=200,Period=250000)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\min.sv":19)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 15 for port 'mod_setpoint'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\min.sv":50)
+Compiling module 'hour(Freq=120,FULL_SCALE=120,FULL_PERIOD=120,Period=416667)'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\hour.sv":19)
+Compiling module 'lut_time_12'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\lut_time.sv":107)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 15 for port 'mod_setpoint'("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\hour.sv":52)
+NOTE  (EX0101) : Current top module is "rtc_uart_hex"
+WARN  (EX0211) : The output port "time_read[23]" of module "sd30xx_ctrl" has no driver, assigning undriven bits to Z, simulation mismatch possible("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v":27)
+WARN  (EX0211) : The output port "time_read[22]" of module "sd30xx_ctrl" has no driver, assigning undriven bits to Z, simulation mismatch possible("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v":27)
+WARN  (EX0211) : The output port "time_read[21]" of module "sd30xx_ctrl" has no driver, assigning undriven bits to Z, simulation mismatch possible("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v":27)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "clk_divider" instantiated to "cd1" is swept in optimizing("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pwm_modulator.sv":62)
+WARN  (NL0002) : The module "lut_time_60" instantiated to "second_lut_time" is swept in optimizing("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\min.sv":39)
+WARN  (NL0002) : The module "lut_time_60" instantiated to "second_lut_time" is swept in optimizing("I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\second.sv":39)
+[95%] Generate netlist file "I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\impl\gwsynthesis\Ampere_Clock.vg" completed
+[100%] Generate report file "I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\impl\gwsynthesis\Ampere_Clock_syn.rpt.html" completed
+GowinSynthesis finish

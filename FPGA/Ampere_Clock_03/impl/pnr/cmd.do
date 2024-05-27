@@ -1,0 +1,13 @@
+-d I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\impl\gwsynthesis\Ampere_Clock.vg
+-p GW1N-1P5C-LQFP100-6
+-pn GW1N-UV1P5LQ100C6/I5
+-cst I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\Ampere_Clock.cst
+-cfg I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1P5C" package="LQFP100" speed="6" partNumber="GW1N-UV1P5LQ100C6/I5"/>
+    <FileList>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\clk_divider.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\hour.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\lut_time.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\min.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pulse_gen.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\pwm_modulator.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\second.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\ampere_ctrl\time_ctrl.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\key.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\key_led\led.sv" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_bit_shift.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\i2c_control.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\sd30xx_ctrl.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\adjust_time.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\uart_adjust_time.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_adjust_time\uart_byte_rx.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_hex\uart_sd30xx\uart_sd30xx_ctrl.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\time_send.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\time_send_uart.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart\uart_byte_tx.v" type="verilog"/>
+        <File path="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\src\rtc_uart_hex.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="include_path" value="G:/FILE/FPGA/GoWin/A_Clock/Ampere_Clock_03/src"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="I:\FILE\FPGA\Gowin\A_Clock\Ampere_Clock_03\impl\gwsynthesis\Ampere_Clock.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="rtc_uart_hex"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

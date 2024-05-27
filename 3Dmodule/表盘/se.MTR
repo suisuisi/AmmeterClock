@@ -1,0 +1,73 @@
+Filename: C:\Users\Administrator\Desktop\second\se.MTR
+#2024-04-28 21:06:41#
+Plate width: 41.5
+Plate height: 31.5
+Bottom to bearing: 6
+Bottom to mounting holes: 6
+Hole separation: 33
+Pointer deflection: 100
+Dummy1: 1
+Dummy2: 2 
+Minor ticmark length: 2
+Minor ticmark width: 3
+Major ticmark length: 4
+Major ticmark width: 10
+Font size: 8
+Actual/virtual offset: 2
+Dummy3: 3
+Dummy4: 4
+Plate style: 0
+Draw arcs Y/N:Y
+Label rotation H/V/B:H
+Print text Y/N:Y
+Label spacing: 6
+Font style: Arial
+Number of scales: 1
+Scale color: 1
+Scale left end (units): 0
+Scale length (units): 50
+Bottom to title: 19
+Bottom to scale ceiling: 23
+Scale title:Wizard Title
+Number of ticmarks: 50
+Major ticmarks every how often: 5
+Labels every how many ticmarks: 10
+Linearity exponent: 1
+Draw graphic Y/N:N
+Graphic filename:
+Left to graphic: 10
+Bottom to graphic: 10
+Graphic width: 10
+Graphic height: 10
+Arc width: 1
+Messages: 0
+Texts: 0
+Highlights: 0
+Plate background: 16777215
+Scale 1 - deleted tics: 0
+Scale 2 - deleted tics: 0
+Scale 3 - deleted tics: 0
+Scale 4 - deleted tics: 0
+Scale 1 - deleted labels: 0
+Scale 2 - deleted labels: 0
+Scale 3 - deleted labels: 0
+Scale 4 - deleted labels: 0
+Relative font sizes:
+Scale 1: 1
+Aspect ratio: .75
+Number of correction points: 7
+Pair #1: 0 \ 0
+Pair #2: .15 \ .15
+Pair #3: .3 \ .3
+Pair #4: .5 \ .5
+Pair #5: .7 \ .7
+Pair #6: .85 \ .85
+Pair #7: 1 \ 1
+Print ticmarks and arcs:
+Scale 1: 0
+Deflection stops:
+Scale 1: 1
+Mirror: N
+Deflection starts:
+Scale 1: 0
+
