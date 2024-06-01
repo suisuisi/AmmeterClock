@@ -3,7 +3,7 @@ Using an ammeter and FPGA to create a clock
 
 # 视频介绍（双击视频）
 
-[![安培★表★“龙”时钟](https://github.com/suisuisi/FPGAandGames/blob/main/2048/images/%E5%B0%81%E9%9D%A2.png?raw=true)](https://www.bilibili.com/video/BV1hr421A7SL/?spm_id_from=333.999.0.0&vd_source=94a53952efb76af78a48919ff19ee645)
+[![安培★表★“龙”时钟](https://github.com/suisuisi/AmmeterClock/blob/main/Doc/%E5%B0%81%E9%9D%A2.jpg)](https://www.bilibili.com/video/BV1hr421A7SL/?spm_id_from=333.999.0.0&vd_source=94a53952efb76af78a48919ff19ee645)
 
 # 文件说明
 
